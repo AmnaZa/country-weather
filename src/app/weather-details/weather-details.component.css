@@ -1,0 +1,36 @@
+.weather-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 2rem 1rem;
+    gap: 1.5rem;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom right, #e0f7fa, #f0f8ff);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+  }
+  
+  .weather-details-container h2 {
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2a4d69;
+  }
+  
+  .weather-details-container img {
+    width: auto;
+    height: 50vh; /* This makes the image cover half the viewport height */
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+  }
+  
+  .weather-details-container p {
+    font-size: 1.2rem;
+    margin: 0.25rem 0;
+    line-height: 1.6;
+  }
+  

@@ -1,10 +1,15 @@
 import { Component, OnInit } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-weather-card',
+  standalone: true,
+  imports: [CommonModule, RouterModule],
   templateUrl: './weather-card.component.html',
   styleUrls: ['./weather-card.component.css']
 })
+
 export class WeatherCardComponent implements OnInit {
   country: string = 'USA';
   temperature: number = 22;
