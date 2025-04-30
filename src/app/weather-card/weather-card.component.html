@@ -1,9 +1,12 @@
-<div class="card">
-    <h2>{{ country }}</h2>
-    <div class="weather-info">
-      <p><strong>Temperature:</strong> {{ temperature }} °C</p>
-      <p><strong>Condition:</strong> {{ condition }}</p>
-    </div>
-    <button (click)="changeWeather()">Change Weather</button>
+<div class="weather-card">
+  <h2>{{ country }}</h2>
+  <div class="weather-info">
+    <p><strong>Temperature:</strong> {{ temperature }} °C</p>
+    <p><strong>Condition:</strong> {{ condition }}</p>
   </div>
-  
+  <button (click)="changeWeather()">Change Weather</button>
+
+  <a href="/view" target="_blank" rel="noopener noreferrer">
+    <button>View</button>
+  </a>
+</div>
